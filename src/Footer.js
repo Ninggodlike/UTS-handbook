@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import { MDBCol, MDBContainer, MDBRow, MDBFooter, MDBIcon } from "mdbreact";
 
 
 class Footer extends Component{
@@ -30,7 +30,9 @@ class Footer extends Component{
               <li className="list-unstyled">
                 <a href="#!">Accessibility</a>
               </li>
+               
             </ul>
+           
           </MDBCol>
           <MDBCol md="2">
             
@@ -66,12 +68,20 @@ class Footer extends Component{
               </li>
             </ul>
           </MDBCol>
+
+          <MDBCol md="2">
+          <a href="https://www.google.com/" target="blank" rel="noopener noreferrer"> <MDBIcon fab icon="twitter-square" size="2x" className=" ml-3" /></a>
+          <MDBIcon fab icon="facebook-square"  size="2x" className=" ml-3" />
+          <MDBIcon fab icon="linkedin"   size="2x" className=" ml-3"/>
+          <MDBIcon fab icon="instagram"  size="2x" className=" ml-3" />
+          <MDBIcon fab icon="youtube"   size="2x" className=" ml-3"/>
+          </MDBCol>
           
         </MDBRow>
       </MDBContainer>
       <div className="footer-copyright text-center py-3">
         <MDBContainer fluid>
-          &copy; {new Date().getFullYear()} Copyright: <a href="https://www.uts.edu.au/"> https://www.uts.edu.au/ </a>
+          &copy; {new Date().getFullYear()} Copyright: <a href="https://www.uts.edu.au/" target="_blank" rel="noopener noreferrer"> https://www.uts.edu.au/ </a>
         </MDBContainer>
       </div>
     </MDBFooter>

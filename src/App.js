@@ -1,19 +1,28 @@
 import React, { Component } from 'react';
-//import Animation from './Animation';
+
 import './App.css';
+import Dashboard from './Dashboard';
+import Test from './Test';
+
 import Header from './Header';
 import Hot from './Hot';
 import { Container, Row, Col, Table } from 'react-bootstrap';
 import Footer from './Footer';
-//import Newheader from './Newheader';
+
 import Display from './Display';
 import Side from './Side';
+import {BrowserRouter as Router,
+Route} from 'react-router-dom';
+
+
+
 class App extends Component{
 
 render(){
 
 return(
-<div>
+  <div>
+  <Router>
   <div>
   <Header></Header>
   </div>
@@ -26,7 +35,7 @@ return(
     <thead>
       <tr style={{textAlign:"center"}}>
         
-        <th style={{fontSize:"30px"}}>Quick Start</th>
+        <th style={{fontSize:"30px", fontFamily:"cursive"}}>Quick Start</th>
         
       </tr>
     </thead>
@@ -35,7 +44,8 @@ return(
         </Row>
    
    
-    <Display></Display>
+    <Route exact path={"/"} component={Display}></Route>
+    <Route path={"/post"} component={Test}></Route>
     
      
      <Row><Col>
@@ -43,7 +53,7 @@ return(
     <thead>
       <tr style={{textAlign:"center"}}>
         
-        <th style={{fontSize:"30px"}}>UTS News</th>
+        <th style={{fontSize:"30px", fontFamily:"cursive"}}>UTS News</th>
         
       </tr>
     </thead>
@@ -57,8 +67,10 @@ return(
       <Footer></Footer>
      
       </div>
-</div>
 
+     </Router> 
+               
+</div>
 )
 }
 }
