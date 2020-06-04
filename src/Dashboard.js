@@ -3,7 +3,7 @@ import Header from './Header';
 import Hot from './Hot';
 import { Container, Row, Col, Table } from 'react-bootstrap';
 import Footer from './Footer';
-//import Newheader from './Newheader';
+
 import Display from './Display';
 import Side from './Side';
 

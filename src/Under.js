@@ -12,8 +12,8 @@ class Under extends Component {
           waves />
         <MDBCardBody>
           <MDBCardTitle>Undergrduate students</MDBCardTitle>
-          <MDBCardText>Some quick example text to build on the card title and make up the bulk of the card's content.</MDBCardText>
-          <MDBBtn href="#/under" color="secondary" >Go</MDBBtn>
+          <MDBCardText>Information for Information Technology Undergraduate students.</MDBCardText>
+          <MDBBtn href="under" color="secondary" >Go</MDBBtn>
         </MDBCardBody>
       </MDBCard>
     </MDBCol>

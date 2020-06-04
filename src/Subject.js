@@ -13,8 +13,8 @@ class Subject extends Component {
           waves />
         <MDBCardBody>
           <MDBCardTitle>All subjects</MDBCardTitle>
-          <MDBCardText>Some quick example text to build on the card title and make up the bulk of the card's content.</MDBCardText>
-          <MDBBtn href="post" color="pink">Go</MDBBtn>
+          <MDBCardText>All Information Technology subjects entry.</MDBCardText>
+          <MDBBtn href="subjects" color="pink">Go</MDBBtn>
         </MDBCardBody>
       </MDBCard>
     </MDBCol>

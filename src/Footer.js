@@ -19,16 +19,16 @@ class Footer extends Component{
             
             <ul>
               <li className="list-unstyled">
-                <a href="#!">About UTS</a>
+                <a href="https://www.uts.edu.au/about">About UTS</a>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Campus maps</a>
+                <a href="https://maps.uts.edu.au/map.cfm">Campus maps</a>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Faculties</a>
+                <a href="https://www.uts.edu.au/about/faculties/overview">Faculties</a>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Accessibility</a>
+                <a href="https://www.uts.edu.au/about/utsweb-statements/accessibility-statement">Accessibility</a>
               </li>
                
             </ul>
@@ -38,16 +38,16 @@ class Footer extends Component{
             
             <ul>
               <li className="list-unstyled">
-                <a href="#!">Library</a>
+                <a href="https://www.lib.uts.edu.au/">Library</a>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Search catalogue</a>
+                <a href="https://search.lib.uts.edu.au/discovery/search?search_scope=MyInst_and_CI&vid=61UTS_INST:61UTS&lang=en">Search catalogue</a>
               </li>
               <li className="list-unstyled">
-                <a href="#!">UTS governance</a>
+                <a href="https://www.uts.edu.au/about/uts-governance/about-governance-uts">UTS governance</a>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Privacy statement</a>
+                <a href="https://www.uts.edu.au/about/utsweb-statements/privacy-statement">Privacy statement</a>
               </li>
             </ul>
           </MDBCol>
@@ -55,26 +55,26 @@ class Footer extends Component{
           
             <ul>
               <li className="list-unstyled">
-                <a href="#!">Staff</a>
+                <a href="https://www.uts.edu.au/staff">Staff</a>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Webmail</a>
+                <a href="https://email.itd.uts.edu.au/email/">Webmail</a>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Staff Directory</a>
+                <a href="https://email.itd.uts.edu.au/webapps/directory/byname/">Staff Directory</a>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Jobs at uts</a>
+                <a href="https://www.uts.edu.au/staff/jobs-uts/working-uts">Jobs at uts</a>
               </li>
             </ul>
           </MDBCol>
 
           <MDBCol md="2">
-          <a href="https://www.google.com/" target="blank" rel="noopener noreferrer"> <MDBIcon fab icon="twitter-square" size="2x" className=" ml-3" /></a>
-          <MDBIcon fab icon="facebook-square"  size="2x" className=" ml-3" />
-          <MDBIcon fab icon="linkedin"   size="2x" className=" ml-3"/>
-          <MDBIcon fab icon="instagram"  size="2x" className=" ml-3" />
-          <MDBIcon fab icon="youtube"   size="2x" className=" ml-3"/>
+          <a href="https://twitter.com/utsengage" target="blank" rel="noopener noreferrer"> <MDBIcon fab icon="twitter-square" size="2x" className=" ml-3" /></a>
+          <a href="https://www.facebook.com/UTSEngage" target="blank" rel="noopener noreferrer"> <MDBIcon fab icon="facebook-square"  size="2x" className=" ml-3" /></a>
+          <a href="https://www.linkedin.com/school/university-of-technology-sydney/" target="blank" rel="noopener noreferrer"> <MDBIcon fab icon="linkedin"   size="2x" className=" ml-3"/></a>
+          <a href="https://www.instagram.com/utsengage/" target="blank" rel="noopener noreferrer"> <MDBIcon fab icon="instagram"  size="2x" className=" ml-3" /></a>
+          <a href="https://www.youtube.com/user/utschannel" target="blank" rel="noopener noreferrer"><MDBIcon fab icon="youtube"   size="2x" className=" ml-3"/></a>
           </MDBCol>
           
         </MDBRow>
